@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    background:#d8d8d5;
+    color:goldenrod;
+    font-size: 26px;
+    padding-top: 10px ;
+    padding-bottom :10px;
+
+}
+.header p{
+    font-size: 19px;
+    color: green;
+}
+.shop-icon{
+    margin-left: 13px;
+}
