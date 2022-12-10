@@ -1,6 +1,6 @@
 [
     {"name":"School bag","id":100,"price":300,"img":"images/images/school-bag.jpg"},
-    {"name":"Shopping-bag.jpg","id":101,"price":200,"img":"images/images/shopping-bag.jpg"},
+    {"name":"Shopping-bag","id":101,"price":200,"img":"images/images/shopping-bag.jpg"},
     {"name":"Desktop solar lamp","id":102,"price":440,"img":"images/images/desktop-focus-lamp.jpg"},
     {"name":"Solar light bulb","id":103,"price":330,"img":"images/images/solar-light-bulb.jpg"},
     {"name":"Laptop bag","id":104,"price":230,"img":"images/images/laptop-bag.jpg"},

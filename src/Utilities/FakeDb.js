@@ -1,4 +1,4 @@
-const AddToCart = (a,b) =>{
-    return a / b;
-}
-export {AddToCart}
+// const AddToCart = (a,b) =>{
+//     return a / b;
+// }
+//export {AddToCart}
