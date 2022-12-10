@@ -1,5 +1,5 @@
 .cart{
-    background-color: whitesmoke;
+    background-color: rgb(202, 194, 194);
     border-radius: 8px;
     height: 750px;
     margin-left: -10px;
@@ -15,8 +15,9 @@
     padding-left: 2px;
     color: rgb(71, 70, 70);
 }
-.btn-container{
+.btn-container button{
     margin-left:15px;
+    font-size: 14px;
 }
 .calc-btn{
   color: green;
@@ -25,6 +26,7 @@
     background-color: green ;
     color: white;
     border: none;
+    border-radius: 3px;
 }
 
 .calc-again{
@@ -34,5 +36,5 @@
     border: none;
     border-radius: 3px;
   color: white;
-  background-color: tomato;
+  background-color: goldenrod;
 }

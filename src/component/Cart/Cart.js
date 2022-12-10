@@ -8,7 +8,7 @@ const Cart = () => {
                 <p className='added-product'></p>
                 <div className='btn-container'>
                   <button className='calc-btn'>Choose 1 For Me</button> <br />
-                  <button className='calc-again'>Choose again</button>    
+                  <button className='calc-again'>Choose Again</button>    
                 </div>
         </div>
     );
