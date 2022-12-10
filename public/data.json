@@ -1,14 +1,14 @@
 [
-    {"name":"School bag","id":100,"price":300,"img":"school-bag.jpg"},
-    {"name":"Shopping-bag.jpg","id":101,"price":200,"img":"shopping-bag.jpg"},
-    {"name":"Desktop solar lamp","id":102,"price":440,"img":"desktop-focus-lamp.jpg"},
-    {"name":"Solar light bulb","id":103,"price":330,"img":"solar-light-bulb.jpg"},
-    {"name":"Laptop bag","id":104,"price":230,"img":"laptop-bag.jpg"},
-    {"name":"Joot bag","id":105,"price":690,"img":"joot-shopping-bag.jpg"},
-    {"name":"Travelling bag","id":106,"price":530,"img":"travelling-bag.jpg"},
-    {"name":"Biker bag","id":107,"price":900,"img":"biker-bag.jpg"},
-    {"name":"G-shopping bag","id":108,"price":290,"img":"green-shopping-bag.jpg"},
-    {"name":"Fancy travelling bag","id":109,"price":779,"img":"fashon-travelling-bag.jpg"},
-    {"name":"Desktop lamp","id":110,"price":223,"img":"desktop-lamp.jpg"},
-    {"name":"Cheerfull bag","id":111,"price":983,"img":"cheerful-attractive-bag.jpg"}
+    {"name":"School bag","id":100,"price":300,"img":"images/images/school-bag.jpg"},
+    {"name":"Shopping-bag.jpg","id":101,"price":200,"img":"images/images/shopping-bag.jpg"},
+    {"name":"Desktop solar lamp","id":102,"price":440,"img":"images/images/desktop-focus-lamp.jpg"},
+    {"name":"Solar light bulb","id":103,"price":330,"img":"images/images/solar-light-bulb.jpg"},
+    {"name":"Laptop bag","id":104,"price":230,"img":"images/images/laptop-bag.jpg"},
+    {"name":"Joot bag","id":105,"price":690,"img":"images/images/joot-shopping-bag.jpg"},
+    {"name":"Travelling bag","id":106,"price":530,"img":"images/images/travelling-bag.jpg"},
+    {"name":"Biker bag","id":107,"price":900,"img":"images/images/biker-bag.jpg"},
+    {"name":"G-shopping bag","id":108,"price":290,"img":"images/images/green-shopping-bag.jpg"},
+    {"name":"Fancy travelling bag","id":109,"price":779,"img":"images/images/fashon-travelling-bag.jpg"},
+    {"name":"Desktop lamp","id":110,"price":223,"img":"images/images/desktop-lamp.jpg"},
+    {"name":"Cheerfull bag","id":111,"price":983,"img":"images/images/cheerful-attractive-bag.jpg"}
 ]

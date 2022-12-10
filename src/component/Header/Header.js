@@ -9,8 +9,6 @@ const Header = () => {
         <div className='header'>
             <h3>Confused  buyer's  Store <FontAwesomeIcon className='shop-icon' icon={faShop}></FontAwesomeIcon></h3>
             <p>Choose 4 Products</p>
-            {/* shop component  */}
-            <Shop></Shop>
         </div>
     );
 };

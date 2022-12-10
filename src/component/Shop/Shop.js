@@ -9,11 +9,18 @@ const Shop = () => {
         .then(data => setProducts(data))
     },[])
     return (
-        <div className='shop'>
-            {
-                products.map(product=> <Product product ={product}></Product>)
-            }
+        <div className='shop-container'>
+           <div className='product-container'>
+             {
+                 products.map(product=> <Product product ={product} key={product.id}>
+                 </Product>)
+             }
+           </div>    
+           <div className='cart-container'>
+                <h2> this is cart area</h2> 
+           </div>
         </div>
+        
     );
 };
 
