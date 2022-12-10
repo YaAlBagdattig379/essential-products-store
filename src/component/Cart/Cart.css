@@ -1,0 +1,38 @@
+.cart{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    height: 750px;
+    margin-left: -10px;
+    position: sticky;
+    top: 0;
+}
+.cart h6{
+    font-weight: 700;
+    color: red;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 21px;
+    padding-left: 2px;
+    color: rgb(71, 70, 70);
+}
+.btn-container{
+    margin-left:15px;
+}
+.calc-btn{
+  color: green;
+}
+.calc-btn:hover{
+    background-color: green ;
+    color: white;
+    border: none;
+}
+
+.calc-again{
+  color: darkmagenta;
+}
+.calc-again:hover{
+    border: none;
+    border-radius: 3px;
+  color: white;
+  background-color: tomato;
+}

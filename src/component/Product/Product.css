@@ -1,16 +1,16 @@
 .product{
-  /* background-color: #d8d8d5; */
-  height: 330px;
-  width: 220px;
-  border: 1px solid  #95A0A7; 
+  height: 300px;
+  width: 200px; 
   border-radius:8px;
   background-color: aliceblue;
   position: relative;
+  margin-top: 20px;
 }
 .product img{
   padding: 6px;
   padding-right: 6px;
-  width: 100%;
+  width: 188px;
+  height: 180px;
 }
 .product-info{
   margin-left: 12px;
@@ -26,14 +26,17 @@
   color: #0E161A;
 }
 .btn-cart{
+  font-size: 16px;
   width: 100%;
+  cursor: pointer;
   background: #FFE0B3;
   border-radius: 0px 0px 8px 8px;
   border: none;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  bottom: 0px;
+  position: absolute;
+  padding: 6px;
 }
 .product button:hover{
-  background-color:blue;
+  background-color:orange;
   color: white;
 }
