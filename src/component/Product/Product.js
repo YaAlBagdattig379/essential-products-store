@@ -6,6 +6,7 @@ import './Product.css'
 
 const Product = (props) => {
     const {name,price,img} = props.product;
+    // console.log(img)
     return (
         <div className='product'>
               <img src={img} alt=""></img>
@@ -19,10 +20,4 @@ const Product = (props) => {
         </div>
     );
 };
-/**
- *  <button onClick={ () => props.handleAddToCart(props.product)} className='btn-cart'>
-                <p className='btn-text'>Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></p>
-            </button>
- * 
- */
 export default Product;

@@ -5,20 +5,20 @@ import Shop from '../Shop/Shop';
 //const Cart = ({cart}) => { // advanced
   const Cart = (props) => {//normal
     const {cart} = props;
-    let name = '' ;
     let total = 0 ;
-    for(const product of cart){
-      total = total + product.price;
-      // console.log(name)
-      name = name + product.name;
-      console.log(name)
+    // let name ='';
+    for(let product of cart){
+      product = product.name;
     }
-    // console.log(cart)
+    // const product = product.name;
     return (
         <div className='cart'>
-                <h6>Selected Products {cart.length}</h6>
+                <h6>Selected Products</h6>
+                {
+                  cart.map(item => console.log(item))
+                }
                 <p className='total-cart'>price: {total}</p>
-                <p className='added-cart'>{name}</p>
+                {/* <h3>name: {product}</h3> */}
                 <div className='btn-container'>
                   <button className='calc-btn'>Choose 1 For Me</button> <br />
                   <button className='calc-again'>Choose Again</button>    

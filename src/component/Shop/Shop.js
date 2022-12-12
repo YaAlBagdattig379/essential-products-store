@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
-import './Shop.css'
+import './Shop.css';
 const Shop = () => {
     const [products,setProducts] = useState([]);
     const [cart,setCart] = useState([]);
@@ -12,10 +12,14 @@ const Shop = () => {
     },[])
     // add to cart  
     //const addToCart =({product,addToCart})=>{ // avanced 
-    const addToCart =(product)=>{
-       const newCart =[...cart,product]
-       setCart(newCart)
-    //    console.log(cart.length)
+    const addToCart =(selectedProduct)=>{
+       console.log(cart)
+       if(cart.length < 4){
+        const newCart =[...cart,selectedProduct]
+        setCart(newCart)
+       }else{
+        alert('you are not able to pick up more than 4 products !')
+       }
     };
     return (
         <div className='shop-container'>
@@ -32,8 +36,6 @@ const Shop = () => {
                <Cart cart={cart} ></Cart>
            </div>
         </div>
-        
     );
 };
-
 export default Shop;
