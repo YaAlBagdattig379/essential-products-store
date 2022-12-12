@@ -1,0 +1,16 @@
+.SelectedProduct{
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+}
+.product-img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.product-name{
+    margin-left: 10px;
+}

@@ -19,20 +19,20 @@
     margin-left:15px;
     font-size: 14px;
 }
-.calc-btn{
+.choose-1btn{
   color: green;
 }
-.calc-btn:hover{
+.choose-1btn:hover{
     background-color: green ;
     color: white;
     border: none;
     border-radius: 3px;
 }
 
-.calc-again{
+.choose-againBtn{
   color: darkmagenta;
 }
-.calc-again:hover{
+.choose-againBtn:hover{
     border: none;
     border-radius: 3px;
   color: white;

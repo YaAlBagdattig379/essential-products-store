@@ -13,7 +13,7 @@ const Shop = () => {
     // add to cart  
     //const addToCart =({product,addToCart})=>{ // avanced 
     const addToCart =(selectedProduct)=>{
-       console.log(cart)
+    //    console.log(cart)
        if(cart.length < 4){
         const newCart =[...cart,selectedProduct]
         setCart(newCart)
