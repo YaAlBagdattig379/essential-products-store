@@ -6,24 +6,44 @@ import SelectedProduct from '../SelecetedProduct/SelectedProduct';
 //const Cart = ({cart}) => { // advanced
   const Cart = (props) => {//normal
     const {cart} = props;
-    /*
-    let total = 0 ;
-    // let name ='';
-    for(let product of cart){
-      product = product.name;
+      // console.log(props.cart)
+    const chooseOneCart= (cartProducts)=>{
+     for(const product of cartProducts){
+      const productPrice = product.price;
+      const checkPrice =(price)=>{
+        return price > 500;
+      }
+      let findLPrice = productPrice.find(checkPrice);
+     console.log(findLPrice)
     }
-    let product = product.name;
-    */
+     /*
+        <p id="demo"></p>
+       <script>
+          document.getElementById("demo").innerHTML = Math.random();
+         </script>
+      *       
+<p id="demo"></p>
+
+<script>
+const ages = [3, 10, 18, 20];
+
+document.getElementById("demo").innerHTML = ages.find(checkAge);
+
+function checkAge(age) {
+  return age > 18;
+}
+</s
+      */
+    }
+   
     return (
         <div className='cart'>
                 <h6>Selected Products</h6>
                 {
                   cart.map(item => <SelectedProduct key={item.id} SelectedItem= {item}></SelectedProduct> )
                 }
-                {/* <p className='total-cart'>{console.log(item.name)}</p> */}
-                {/* <h3>name: {product}</h3> */}
-                <div className='btn-container'>
-                  <button className='choose-1btn'>Choose 1 For Me</button> <br />
+                <div className='choose-btn-container'>
+                  <button onClick={ ()=>chooseOneCart(cart)}   className='choose-1btn'>Choose 1 For Me</button><br/>
                   <button className='choose-againBtn'>Choose Again</button>    
                 </div>
         </div>

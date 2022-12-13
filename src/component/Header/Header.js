@@ -7,7 +7,7 @@ import Shop from '../Shop/Shop';
 const Header = () => {
     return (
         <div className='header'>
-            <h3>Confused  buyer's  Store <FontAwesomeIcon className='shop-icon' icon={faShop}></FontAwesomeIcon></h3>
+            <h3>Puzzled  buyer's  Store <FontAwesomeIcon className='shop-icon' icon={faShop}></FontAwesomeIcon></h3>
             <p>Choose 4 Products</p>
         </div>
     );

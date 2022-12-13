@@ -3,7 +3,6 @@ import './SelectedProduct.css';
 
 const SelectedProduct = (props) => {
     const {name,img} = props.SelectedItem;
-    console.log(props.SelectedItem)
     return (
         <div className='SelectedProduct'>
             <img className='product-img' src={img} alt="" />
