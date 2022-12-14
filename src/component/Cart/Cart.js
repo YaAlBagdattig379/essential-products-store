@@ -8,14 +8,9 @@ import SelectedProduct from '../SelecetedProduct/SelectedProduct';
     const {cart} = props;
       // console.log(props.cart)
     const chooseOneCart= (cartProducts)=>{
-     for(const product of cartProducts){
-      const productPrice = product.price;
-      const checkPrice =(price)=>{
-        return price > 500;
-      }
-      let findLPrice = productPrice.find(checkPrice);
-     console.log(findLPrice)
-    }
+    let chooseCartName = cartProducts[Math.floor(Math.random() * cartProducts.length)];
+     console.log(chooseCartName.name)
+    // }
      /*
         <p id="demo"></p>
        <script>
@@ -42,6 +37,7 @@ function checkAge(age) {
                 {
                   cart.map(item => <SelectedProduct key={item.id} SelectedItem= {item}></SelectedProduct> )
                 }
+                <h3>you have choosen {} item.</h3>
                 <div className='choose-btn-container'>
                   <button onClick={ ()=>chooseOneCart(cart)}   className='choose-1btn'>Choose 1 For Me</button><br/>
                   <button className='choose-againBtn'>Choose Again</button>    
